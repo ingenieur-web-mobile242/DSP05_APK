@@ -16,7 +16,7 @@ if (typeof document !== 'undefined') {
         greetButton.addEventListener("click", function () {
             // Récupérer la valeur de l'input
             const nomUtilisateur = usernameInput.value;
-            // Afficher "Bonjour, [nom de l'utilisateur]" dans le paragraphe
+            // Afficher "Bonjour junior, [nom de l'utilisateur]" dans le paragraphe
             greetingParagraph.textContent = direBonjour(nomUtilisateur);
         });
     });
